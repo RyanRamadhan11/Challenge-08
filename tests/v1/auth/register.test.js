@@ -10,11 +10,7 @@ describe("POST /v1/auth/register", () => {
         return request(app)
             .post("/v1/auth/register")
             .set("Content-Type", "application/json")
-            .send({
-                name,
-                email,
-                password
-            })
+            .send({name, email, password})
             .then((res) => {
                 expect(res.statusCode).toBe(201);
                 expect(res.body).toEqual(
@@ -32,11 +28,7 @@ describe("POST /v1/auth/register", () => {
         return request(app)
             .post("/v1/auth/register")
             .set("Content-Type", "application/json")
-            .send({
-                name,
-                email,
-                password
-            })
+            .send({name, email, password})
             .then((res) => {
                 expect(res.statusCode).toBe(422);
                 expect(res.body).toEqual(
