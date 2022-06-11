@@ -1,6 +1,6 @@
 # BCR API
 
-RYAN RAMADHAN | FSW 6 | BINAR ACADEMY
+ RYAN RAMADHAN | FSW 6 | BINAR ACADEMY
 
 Di dalam repository ini terdapat implementasi API dari Binar Car Rental.
 Tugas kalian disini adalah:
